@@ -35,7 +35,7 @@ modules:
         - cinnamon-desktop
 
 
-   - type: fonts
+  - type: fonts
     fonts:
         nerd-fonts:
         - Hack
