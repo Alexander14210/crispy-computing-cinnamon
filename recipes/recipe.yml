@@ -61,6 +61,6 @@ modules:
 
   - type: systemd
     system:
-      enable:
+      enabled:
         - ublue-lightdm-workaround.service
 
