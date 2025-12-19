@@ -21,10 +21,15 @@ modules:
     install:
       packages:
         - micro
-        - lightdm
 
     remove:
       packages:
+        # Based on the output of dnf group info "cinnamon-desktop"
+        - pidgin
+        - gnome-software
+        - thunderbird
+        - slick-greeter
+        - slick-greeter-cinnamon
         # example: removing firefox (in favor of the flatpak)
         # "firefox" is the main package, "firefox-langpacks" is a dependency
         - firefox
